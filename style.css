@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    background: url("moonbg.png");
+
+  } 
+  
+  .wrapper{
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  .wrapper h1{
+    font-family: 'Indie Flower', cursive; 
+    font-size: 48px;
+    color: rgb(173, 165, 165);
+    margin-bottom: 25px;
+  }
+  
+  .our_group{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .our_group .team_member{
+    width: 250px;
+    margin: 5px;
+    background: rgba(233, 150, 122, 0.313);
+    padding: 20px 10px;
+  }
+  
+  .our_group .team_member .member_img{
+    background: ;  
+    max-width: 190px;
+    width: 100%;
+    height: 190px;
+    margin: 0 auto;
+    border-radius: 100%;
+    padding: 10px;
+    position: relative;
+    cursor: square;
+  }
+  
+  .our_group .team_member .member_img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .our_group .team_member h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0px;
+  }
+  
+  .our_group .team_member span{
+    font-size: 10px;
+  }
+  
+  .our_group .team_member p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+   }
+   .wrapper .our_group .team_member h3{
+       text-transform: uppercase;
+   } 
+  .our_group .team_member .member_img .social_media .item{
+    margin: 0 10px;
+  }
+  
+  .our_group .team_member .member_img .social_media .fab{
+    color: #8c7ae6;
+    font-size: 20px;
+  }
+  
+  .our_group .team_member .member_img:hover .social_media{
+    transform: scale(1);
+  }
+  img {
+      border: 3px solid #330000;
+      border-radius: 20%;
+  }
+  .logo {
+      text-indent: 0px;
+      background: url("logobg.png");
+  }
+ 
